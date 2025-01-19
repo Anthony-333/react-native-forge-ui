@@ -5,7 +5,7 @@ import { Button } from 'react-native-forge-ui';
 export default function App() {
   return <View style={styles.container}>
 
-    <Button>
+    <Button onPress={() => console.log('clicked')}>
       Click Me
     </Button>
   </View>;
